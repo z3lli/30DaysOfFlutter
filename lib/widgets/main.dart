@@ -3,8 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:pubguc/pages/home_page.dart';
 import 'package:pubguc/pages/login_page.dart';
 import 'package:pubguc/utils/routes.dart';
-import 'package:pubguc/utils/theme.dart';
-import 'package:pubguc/utils/theme.dart';
+import 'package:pubguc/widgets/theme.dart';
+import 'package:pubguc/widgets/theme.dart';
 
 void main() {
   runApp(MyApp());
