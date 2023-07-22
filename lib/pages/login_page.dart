@@ -26,7 +26,7 @@ class _LoginPageState extends State<LoginPage> {
               height: 20,
             ),
             Text(
-              "PUBG UC SHOP $name",
+              "Welcome $name",
               style: TextStyle(
                   fontSize: 24, fontWeight: FontWeight.bold, color: Colors.red),
             ),

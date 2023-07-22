@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
     String name = "usama";
     return Scaffold(
       appBar: AppBar(
-        title: Text("PUBG SHOP"),
+        title: Text("Catalog"),
       ),
       body: Center(
         child: Container(
