@@ -3,6 +3,8 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:pubguc/pages/home_page.dart';
 import 'package:pubguc/pages/login_page.dart';
 import 'package:pubguc/utils/routes.dart';
+import 'package:pubguc/utils/theme.dart';
+import 'package:pubguc/utils/theme.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,13 +18,8 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.light,
-      theme: ThemeData(
-        primarySwatch: Colors.deepPurple,
-        fontFamily: GoogleFonts.lato().fontFamily,
-      ),
-      darkTheme: ThemeData(
-        brightness: Brightness.dark,
-      ),
+      theme: MyTheme.lightTheme(context),
+      darkTheme: MyTheme.DarkTheme(context),
       routes: {
         "/": (context) => HomePage(),
         MyRoutes.homeRoute: (context) => HomePage(),
